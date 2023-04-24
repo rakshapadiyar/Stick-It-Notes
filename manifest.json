@@ -1,0 +1,19 @@
+{
+  "short_name": "Stick-It-Notes",
+  "name": "Stick-It-Notes by Raksha",
+  "icons": [
+    {
+      "src": "contract.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "contract.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#333",
+  "display": "standalone",
+  "theme_color": "#ffd31d"
+}

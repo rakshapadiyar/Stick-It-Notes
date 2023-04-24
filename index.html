@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+
+    <title>Stick it</title>
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Stick It Notes</h1>
+      <p id="rp">By, Raksha</p>
+    </div>
+
+    <div id="form">
+      <form action="" id="inputForm">
+        <input
+          type="text"
+          name="title"
+          id="new-note-title-input"
+          class="inputText"
+          placeholder="Title"
+          autocomplete="off"
+          required
+          autofocus
+        />
+
+        <input
+          type="text"
+          name="content"
+          id="new-note-body-input"
+          class="inputText"
+          placeholder="Content"
+          autocomplete="off"
+          required
+        />
+
+        <button type="submit" class="btn">Create Note</button>
+      </form>
+    </div>
+    <h3 id="no-notes">No notes added yet!</h3>
+
+    <!-- The notes are unordered list, and each notes is an list item -->
+
+    <ul id="notes">
+      <!-- <li>
+        <a href="#">
+          <h2>Note title</h2>
+          <button class="delete">X</button>
+          <p>i am the note</p>
+        </a>
+      </li> -->
+    </ul>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
